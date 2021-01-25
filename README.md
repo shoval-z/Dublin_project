@@ -66,6 +66,10 @@ Dublin Bus- travel between the attractions in the city
 -	Shapefile for the bus routes (to draw on map)-  [here](https://hub.arcgis.com/datasets/f3cd2313a3e849a798da2dbc68835c77_7?geometry=-6.362%2C53.319%2C-6.145%2C53.355&selectedAttribute=Shape__Length)
 -	Traveling time prediction in scheduled transportation with journey segments. Gal et al. (paper that describes the way we predicted the traveling time)-   [here](https://www.sciencedirect.com/science/article/abs/pii/S0306437915002112)
 
+__For more information about the project see slides.html file__
+
+**See you in Dublin!**
+
 [Shoval Zandberg](https://github.com/shoval-z)
 
 [Noa Shmulevich](https://github.com/noashmul)

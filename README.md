@@ -9,7 +9,7 @@
    + prediction of the traveling time between the initial station and the first attraction.
  + As a part of the project we also upload the streaming output to a Data warehouse (we are using Elasticsearch- you can find installation instructions below)
 
-**Demonstration of the application**
+ **<ins>Demonstration of the application</ins>** 
 
 This gif shows what will happen for the following input:
 
@@ -40,7 +40,6 @@ In addition, we use streaming data to predict the time for the first ride (the c
 -	Databricks machine with Databricks Runtime Version 6.4 (includes Apache Spark 2.4.5, Scala 2.11)
 -	Python 3.7 or higher
 -	packages from requirements.txt in this repo
-Dublin Bus- travel between the attractions in the city
 
 ### data.txt
 - contains links to the relevant datasets from google drive. the datasets bus_stops and attractions are external datasets that can be found in the references below. the other datasets are the outcome from pre_process.ipynb and are needed for main.ipynb and app.py

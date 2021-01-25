@@ -1,0 +1,16 @@
+The needed datasets:
+
+attractions- their location, phone number and URL:
+https://docs.google.com/spreadsheets/d/1NTmOn-w_6NRm9ShY-sgo5VS7Xx9kEBvBlvzoNmg1aas/edit?usp=sharing
+
+bus stops- the different bus stops in Dublin and their locatins:
+https://docs.google.com/spreadsheets/d/1TzKC5vvs9AhppX8DDS25tH-MnCRtpkD3AAxJF8h4tMY/edit?usp=sharing
+
+The line and it's stations route:
+https://docs.google.com/spreadsheets/d/1jfJ_nbPkeOhyFJg3FE9T4sextr3YI1sN6TY4InQCSUc/edit?usp=sharing
+
+The different attractions and the stations that are near by them (300m or less):
+https://docs.google.com/spreadsheets/d/1IHqNxSeSq6yddHh_fQ7OCIS8y9pWtRoBLlvnEnrav70/edit?usp=sharing
+
+The possible combination between station and attraction and the lines that pass through them:
+https://docs.google.com/spreadsheets/d/1bcdwwbj5N4l6gRwyb_7bC1CxvXj8uJxwy_6DFapEP8M/edit?usp=sharing

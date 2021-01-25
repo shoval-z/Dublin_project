@@ -11,15 +11,15 @@
 **demonstrate of the appliction**
 This gif shows what will happend for the following input:
 
-<ins>initial station:<ins> 14
+<ins>i\Initial station:</ins> 14
 
-first attraction: Aircoach
+<ins>First attraction:</ins> Aircoach
 
-second attraction: Merrion Square
+<ins>Second attraction:</ins> Merrion Square
 
-third attraction: Blackrock Park
+<ins>Third attraction:</ins> Blackrock Park
 
-input time: '2017-07-18 12:00:00'
+<ins>Input time:</ins> '2017-07-18 12:00:00'
 
 ![Alt Text](https://i.imgur.com/HiHYp2f.gif)
 

@@ -24,7 +24,7 @@ This gif shows what will happend for the following input:
 ![Alt Text](https://i.imgur.com/HiHYp2f.gif)
 
 
-The last link will leadto a website with this map:
+The last link will lead to a website with this map:
 
 ![](https://i.imgur.com/FbQ93HZ.png)
 (to see a gif that shows more details see app_map.gif)

@@ -54,7 +54,7 @@ Dublin Bus- travel between the attractions in the city
 ### main.ipynb
 -	This notebook presents the application output in the Databricks environment. 
 -	It uses the csv that were produce in the pre_process.ipnyb.
--	To run this notebook and reproduce its result, please run the cells in their order. The notebook presents user interface with 'dbutils.widgets' where you can choose the wanted values as input (run cells 15, then choose the first station, run cell 16 and choose the first attraction and the same for cells 17-18).
+-	To run this notebook and reproduce its result, please run the cells in their order.First, select the wanted timestamp in command 1. The notebook presents user interface with 'dbutils.widgets' where you can choose the wanted values as input (run cells 15, then choose the first station, run cell 16 and choose the first attraction and the same for cells 17-18).
 -	 You will see the output at the end of the notebook.
 
 ### app.py
@@ -67,6 +67,7 @@ Dublin Bus- travel between the attractions in the city
 3. Within the same directory of the file, execute: `sudo /opt/anaconda3/bin/docker-compose up -d`.
 This will build your services using the configurations from docker-compose.yml.
 4. After a few moments, you should be able to access your Elasticsearch server on: YOUR_DNS_NAME:9200, and Kibana on: YOUR_DNS_NAME:5601
+5. If you want to write to the data warehouse, change the esURL variable in command 27 to by the private IP of your machine
 
 ### References
 -	Attractions in Ireland dataset-  [here](https://data.gov.ie/dataset/attractions)

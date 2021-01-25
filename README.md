@@ -10,7 +10,6 @@
 
 ![](https://i.imgur.com/HiHYp2f.gifv)
 
-
 **photo of the app and a map example**
 
 In addition, we use streaming data to predict the time for the first ride (the current location to the first attraction).

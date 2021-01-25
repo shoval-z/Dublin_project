@@ -50,7 +50,7 @@ Dublin Bus- travel between the attractions in the city
 ### main.ipynb
 -	This notebook presents the applications output in the databricks environment. 
 -	It uses the csv that were produce in the pre_process.ipnyb.
--	To run this notebook and reproduce its result, please run the cells in their order. The notebook presents users interface with 'dbutils.widgets' where you can choose the wanted values as input (run cells 14, than choose the first station, run cell 15 and choose the first attraction, and the same for cells 16-17).
+-	To run this notebook and reproduce its result, please run the cells in their order. The notebook presents users interface with 'dbutils.widgets' where you can choose the wanted values as input (run cells 15, than choose the first station, run cell 16 and choose the first attraction, and the same for cells 17-18).
 -	 You will see the output at the end of the notebook.
 
 ### app.py

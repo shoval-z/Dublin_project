@@ -4,9 +4,10 @@
 + This project presents an application that offers the user an easy way to plane his journey through Dublins attractions by selecting his current location and 3 attraction he wants to travel to. 
 + The output is:
 
-   + the necessary lines to get from each location to the other (primary station to first attraction, first attraction to second attraction, and second attraction to third attraction
-   + Some extra information about each attraction (phone number and URL to the attractions website), and a map that shows all the above
-   + prediction of the traveling time between the initial station and the first attraction
+   + the necessary lines to get from each location to the other (primary station to first attraction, first attraction to second attraction, and second attraction to third attraction.
+   + Some extra information about each attraction (phone number and URL to the attractions website), and a map that shows all the above.
+   + prediction of the traveling time between the initial station and the first attraction.
+ + As a part of the project we also upload the streaming output to a Data warehouse (we are using Elasticsearch- you can find installation instructions below)
 
 **demonstrate the application**
 
@@ -59,6 +60,13 @@ Dublin Bus- travel between the attractions in the city
 ### app.py
 -	This file contains the user interface code using wx library. Run the file in a machine with GUI and you will see the interface as presented at the beginning of this file.
 -	You can update the map presented here by running main.ipnyb with the same inputs. if you won't run it you will get an output that does not use the stream data and therefore does not predict the travel time.
+
+### Elasticsearch + Kibana set up
+1. Install docker-compose via: `sudo pip install docker-compose` 
+2. Download docker-compose.yml file
+3. Within the same directory of the file, execute: `sudo /opt/anaconda3/bin/docker-compose up -d`.
+This will build your services using the configurations from docker-compose.yml.
+4. After a few moments, you should be able to access your Elasticsearch server on: YOUR_DNS_NAME:9200, and Kibana on: YOUR_DNS_NAME:5601
 
 ### References
 -	Attractions in Ireland dataset-  [here](https://data.gov.ie/dataset/attractions)

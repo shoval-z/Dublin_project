@@ -8,7 +8,7 @@
    + Some extra information about each attraction (phone number and URL to the attractions website), and a map that show all the above
    + prediction the traveling time between the initial station and the first attraction
 
-![Alt Text](https://i.imgur.com/HiHYp2f.gif=100x)
+![Alt Text](https://i.imgur.com/HiHYp2f.gif=10x)
 
 **photo of the app and a map example**
 

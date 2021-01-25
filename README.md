@@ -41,11 +41,14 @@ In addition, we use streaming data to predict the time for the first ride (the c
 -	packages from requirements.txt in this repo
 Dublin Bus- travel between the attractions in the city
 
+### data.txt
+- contains link to relevent dataset from google drive. the datasets bus_stops and attarctions are external dataset that can be found in the refe trences below. the other datasets are the outcome from pre_process.ipynb and are needed for main.ipynb and app.py
+
 ### pre_process.ipynb
 -	This notebook creates csv files for the application to use.
 -	It uses sample from the static dataset of Dublin and creates the route for each bus-line and finds the stations that are nearby each attraction.
 -	In addition, it produces a csv that contain the needed line for each combination of station->attraction. 
--	To run this notebook and reproduce its result, please run the cells in their order (the notebook uses some external dataset that can be found in the data folder). You can find links to those datasets in the references below.
+-	To run this notebook and reproduce its result, please run the cells in their order (the notebook uses some external dataset that download from google drive- relevent link are in data.txt file). You can find links to those datasets in the references below.
 
 ### main.ipynb
 -	This notebook presents the applications output in the databricks environment. 
@@ -55,7 +58,7 @@ Dublin Bus- travel between the attractions in the city
 
 ### app.py
 -	This file contains the users interface code using wx library. Run the file in a machine with GUI and you will se the interface as presented in the beginning of this file.
--	You can update the map presented here by running main.ipnyb with the same inputs. 
+-	You can update the map presented here by running main.ipnyb with the same inputs. if you won't run it you will get ao output that does not use the stream data and therfore does not predict the travel time.
 
 ### Refrences
 -	Attractions in Ireland dataset-  [here](https://data.gov.ie/dataset/attractions)

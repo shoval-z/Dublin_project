@@ -11,7 +11,7 @@
 **demonstrate of the appliction**
 This gif shows what will happend for the following input:
 
-_initial station:_ 14
+<ins>initial station:<ins> 14
 
 first attraction: Aircoach
 

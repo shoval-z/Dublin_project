@@ -67,7 +67,7 @@ Dublin Bus- travel between the attractions in the city
 3. Within the same directory of the file, execute: `sudo /opt/anaconda3/bin/docker-compose up -d`.
 This will build your services using the configurations from docker-compose.yml.
 4. After a few moments, you should be able to access your Elasticsearch server on: YOUR_DNS_NAME:9200, and Kibana on: YOUR_DNS_NAME:5601
-5. If you want to write to the data warehouse, change the esURL variable in command 27 to by the private IP of your machine
+5. If you want to write to the data warehouse, change the esURL variable in command 27 in main.ipynb to be the private IP of your machine
 
 ### References
 -	Attractions in Ireland dataset-  [here](https://data.gov.ie/dataset/attractions)

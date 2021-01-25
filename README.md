@@ -9,6 +9,7 @@
    + prediction the traveling time between the initial station and the first attraction
 
 **demonstrate of the appliction**
+
 This gif shows what will happend for the following input:
 
 <ins>Initial station:</ins> 14

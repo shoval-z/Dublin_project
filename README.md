@@ -13,8 +13,8 @@
 **photo of the app and a map example**
 
 In addition, we use streaming data to predict the time for the first ride (the current location to the first attraction).
-- The application is based on wx library- to see the interface run XX throw a machine with GUI.
-- You can see the application output without GUI in YYY.
+- The application is based on wx library- to see the interface run app.py throw a machine with GUI.
+- You can see the application output without GUI in main.ipynb.
 
 ### pre-requirements
 -	Databricks machine with Databricks Runtime Version 6.4 (includes Apache Spark 2.4.5, Scala 2.11)
@@ -22,13 +22,13 @@ In addition, we use streaming data to predict the time for the first ride (the c
 -	packages from requirements.txt in this repo
 Dublin Bus- travel between the attractions in the city
 
-### pre_process.ipnyb
+### pre_process.ipynb
 -	This notebook creates csv files for the application to use.
 -	It uses sample from the static dataset of Dublin and creates the route for each bus-line and finds the stations that are nearby each attraction.
 -	In addition, it produces a csv that contain the needed line for each combination of station->attraction. 
 -	To run this notebook and reproduce its result, please run the cells in their order (the notebook uses some external dataset that can be found in the data folder). You can find links to those datasets in the references below.
 
-### main.ipnyb
+### main.ipynb
 -	This notebook presents the applications output in the databricks environment. 
 -	It uses the csv that were produce in the pre_process.ipnyb.
 -	To run this notebook and reproduce its result, please run the cells in their order. The notebook presents users interface with 'dbutils.widgets' where you can choose the wanted values as input (run cells 14, than choose the first station, run cell 15 and choose the first attraction, and the same for cells 16-17).

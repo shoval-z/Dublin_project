@@ -9,7 +9,7 @@
    + prediction of the traveling time between the initial station and the first attraction.
  + As a part of the project we also upload the streaming output to a Data warehouse (we are using Elasticsearch- you can find installation instructions below)
 
-**demonstrate the application**
+**Demonstration of the application**
 
 This gif shows what will happen for the following input:
 

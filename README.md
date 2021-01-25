@@ -1,5 +1,5 @@
 # Dublin Bus- travel between the attractions in the city
-![](https://i.imgur.com/rl7NZOs.jpg=400x)
+![](https://i.imgur.com/rl7NZOs.jpg)
 
 + This project presents an application that offer the user an easy way to plane his journey through Dublins attractions by selecting his current location, and 3 attraction he wants to travel to. 
 + The output is:
@@ -8,9 +8,10 @@
    + Some extra information about each attraction (phone number and URL to the attractions website), and a map that show all the above
    + prediction the traveling time between the initial station and the first attraction
 
+**demonstrate of the appliction**
 ![Alt Text](https://i.imgur.com/HiHYp2f.gif)
+**the map that the application provide**
 
-**photo of the app and a map example**
 
 In addition, we use streaming data to predict the time for the first ride (the current location to the first attraction).
 - The application is based on wx library- to see the interface run app.py throw a machine with GUI.

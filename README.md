@@ -11,7 +11,7 @@
 **demonstrate of the appliction**
 This gif shows what will happend for the following input:
 
-<ins>i\Initial station:</ins> 14
+<ins>Initial station:</ins> 14
 
 <ins>First attraction:</ins> Aircoach
 

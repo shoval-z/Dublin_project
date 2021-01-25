@@ -21,13 +21,14 @@ third attraction: Blackrock Park
 
 input time: '2017-07-18 12:00:00'
 
-![Alt Text](https://i.imgur.com/HiHYp2f.gif)
+
 
 
 The last link will follow a website with this map:
 
 
 ![Alt Text](https://i.imgur.com/DfG2EoD.gif)
+
 
 In addition, we use streaming data to predict the time for the first ride (the current location to the first attraction).
 - The application is based on wx library- to see the interface run app.py throw a machine with GUI.

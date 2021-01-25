@@ -24,10 +24,10 @@ input time: '2017-07-18 12:00:00'
 ![Alt Text](https://i.imgur.com/HiHYp2f.gif)
 
 
-The last link will follow a website with this map:
+The last link will leadto a website with this map:
 
-
-![Alt Text](https://i.imgur.com/dFixgqD.gif)
+![](https://i.imgur.com/FbQ93HZ.png)
+(to see a gif that shows more details see app_map.gif)
 
 
 In addition, we use streaming data to predict the time for the first ride (the current location to the first attraction).

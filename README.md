@@ -45,4 +45,5 @@ Dublin Bus- travel between the attractions in the city
 -	Traveling time prediction in scheduled transportation with journey segments. Gal et al. (paper that describes the way we predicted the travelling time)-   [here](https://www.sciencedirect.com/science/article/abs/pii/S0306437915002112)
 
 [Shoval Zandberg](https://github.com/shoval-z)
+
 [Noa Shmulevich](https://github.com/noashmul)

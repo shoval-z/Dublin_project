@@ -1,5 +1,5 @@
 # Dublin Bus- travel between the attractions in the city
-![](https://i.imgur.com/rl7NZOs.jpg)
+![](https://i.imgur.com/rl7NZOs.jpg=10x)
 
 + This project presents an application that offer the user an easy way to plane his journey through Dublins attractions by selecting his current location, and 3 attraction he wants to travel to. 
 + The output is:
@@ -8,7 +8,7 @@
    + Some extra information about each attraction (phone number and URL to the attractions website), and a map that show all the above
    + prediction the traveling time between the initial station and the first attraction
 
-![Alt Text](https://i.imgur.com/HiHYp2f.gif=10x)
+![Alt Text](https://i.imgur.com/HiHYp2f.gif)
 
 **photo of the app and a map example**
 
